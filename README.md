@@ -1,6 +1,6 @@
 # Social media analytics
 ## project overview
-This project analyzes social media data to identify trends, engagement patterns ans user behavioue
+This project analyzes social media data to identify trends, engagement patterns and user behaviour using ML and NLP.
 ## technologies used 
 -python
 -pandas
