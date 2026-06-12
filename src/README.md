@@ -1,1 +1,1 @@
-This folder contains project source code for data preprocessing, training, and inference.
+This folder contains project source code for social media analytics.
