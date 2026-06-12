@@ -1,4 +1,4 @@
-# Social media analytics
+# Social media analsis
 ## project overview
 This project analyzes social media data to identify trends, engagement patterns and user behaviour using ML and NLP.
 ## technologies used 
