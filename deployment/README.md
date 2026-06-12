@@ -1,1 +1,1 @@
-This folder contains deployment files like Dockerfile and deployment sripts.
+This folder contains deployment files and deployment sripts.
