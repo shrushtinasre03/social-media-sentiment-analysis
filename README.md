@@ -1,11 +1,16 @@
-# ai-chatbot-project
-## Description
-Ai chatbot for student internship project using Python and Flask
-## Tech Stack
--Python
--Flask
--GitHub
-## How to Run
-Instructions wil be added during development.
+# Social media analytics
+## project overview
+This project analyzes social media data to identify trends, engagement patterns ans user behavioue
+## technologies used 
+-python
+-pandas
+-madplotlib
+-numpy
+## Features
+-Data collection
+-sentiment analysis
+-trend visualization
+-Engagement analytics
 ## Contributors
-Shrushti Nasre
+-Shrushti Nasre
+-Riddhi pagariya
