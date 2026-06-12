@@ -1,2 +1,1 @@
-#Reports
-This folder contains weekly reports and documentation.
+This folder contains weekly reports, metrics, and final documentation.
