@@ -16,3 +16,12 @@
 
 ## Response Format
 The server returns responses in JSON format.
+## Backend Workflow
+
+1. User enters text in the frontend.
+2. Frontend sends the text to the backend using a POST request.
+3. Flask receives the request.
+4. The sentiment analysis model processes the text.
+5. The model predicts Positive, Negative, or Neutral sentiment.
+6. Backend returns the prediction in JSON format.
+7. Frontend displays the result to the user.
