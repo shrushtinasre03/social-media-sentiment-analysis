@@ -25,3 +25,17 @@ The server returns responses in JSON format.
 5. The model predicts Positive, Negative, or Neutral sentiment.
 6. Backend returns the prediction in JSON format.
 7. Frontend displays the result to the user.
+## Frontend Interface
+
+The frontend provides a simple interface for users to interact with the sentiment analysis system.
+
+### Features
+- Text input box for entering social media content.
+- Analyze button to submit the text.
+- Display area showing the predicted sentiment.
+- Loading indicator while processing the request.
+
+### Technologies
+- HTML
+- CSS
+- JavaScript
