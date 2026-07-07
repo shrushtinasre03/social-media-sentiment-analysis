@@ -1,4 +1,5 @@
 from flask import Flask, request, jsonify
+from model import predict_sentiment
 
 app = Flask(__name__)
 
@@ -7,12 +8,7 @@ def predict():
     data = request.get_json()
     text = data.get("text", "")
 
-    if "good" in text.lower():
-        sentiment = "Positive"
-    elif "bad" in text.lower():
-        sentiment = "Negative"
-    else:
-        sentiment = "Neutral"
+    sentiment = predict_sentiment (text)
 
     return jsonify({
         "input": text,
