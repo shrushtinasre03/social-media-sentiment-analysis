@@ -1,1 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Sentiment Analysis</title>
 
+    <link rel="stylesheet"
+    href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Social Media Sentiment Analysis</h1>
+        <p class="subtitle">
+            AI Powered by Machine Learning & NLP
+        </p>
+
+        <div class="input-card">
+            <textarea
+                id="textInput"
+                placeholder="Enter a Tweet, Instagram caption, or social media post..."
+                rows="6">
+            </textarea>
+
+            <button onclick="analyzeSentiment()">
+                Analyze Sentiment
+            </button>
+        </div>
+
+        <div class="loading" id="loading">
+            AI is analyzing...
+        </div>
+
+        <div class="result-card">
+            <h2>Analysis Result</h2>
+
+            <p>
+                <strong>Sentiment:</strong>
+                <span id="sentiment">
+                    Waiting for input...
+                </span>
+            </p>
+
+            <p>
+                <strong>Confidence:</strong>
+                <span id="confidence">
+                    --
+                </span>
+            </p>
+        </div>
+
+        <div class="stats">
+            <div class="card">
+                <h3>Accuracy</h3>
+                <p>92%</p>
+            </div>
+
+            <div class="card">
+                <h3>Dataset</h3>
+                <p>10,000+</p>
+            </div>
+
+            <div class="card">
+                <h3>Model</h3>
+                <p>ML + NLP</p>
+            </div>
+        </div>
+
+        <footer>
+            Developed by Shrushti Suresh Nasre
+        </footer>
+
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
