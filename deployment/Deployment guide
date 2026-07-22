@@ -1,0 +1,22 @@
+# Deployment Guide
+
+## Platform
+PythonAnywhere
+
+## Deployment Steps
+
+1. Upload project files.
+2. Configure the Flask application.
+3. Install the required dependencies.
+4. Configure the WSGI file.
+5. Reload the application.
+
+## Available Endpoints
+
+- GET /health
+- POST /predict
+- GET /history
+
+## Deployment URL
+
+https://shrushhh03.pythonanywhere.com
